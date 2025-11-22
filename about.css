@@ -1,0 +1,67 @@
+/* About Us Page Styling */
+.about-us {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #0056b3;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #444;
+}
+
+.vision-mission {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.vm-box {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.vm-box h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #0056b3;
+}
+
+.vm-box p, .vm-box ul {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.vm-box ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+}
